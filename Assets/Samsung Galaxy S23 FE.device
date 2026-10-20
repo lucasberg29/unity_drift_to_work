@@ -1,0 +1,14 @@
+{
+  "friendlyName": "Samsung Galaxy S23 FE",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 403
+    }
+  ],
+  "systemInfo": {
+    "operatingSystem": "Android"
+  }
+}
