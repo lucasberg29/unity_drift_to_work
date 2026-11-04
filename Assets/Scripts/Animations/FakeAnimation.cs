@@ -32,11 +32,6 @@ public class FakeAnimation : StateMachineBehaviour
         //rbPlayer.constraints = RigidbodyConstraints.FreezePositionY;
     }
 
-    public void doThisHere()
-    {
-        //Debug.Log("Yaaaaaaaay");
-    }
-
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{

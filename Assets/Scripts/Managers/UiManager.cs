@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Ui : MonoBehaviour
+public class UiManager : MonoBehaviour
 {
-    public static Ui instance;
+    public static UiManager instance;
 
     public TextMeshProUGUI goToWorkText;
 

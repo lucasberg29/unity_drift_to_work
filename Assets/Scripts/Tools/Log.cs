@@ -1,11 +1,19 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Log : MonoBehaviour
+public class LogManager : MonoBehaviour, IManager
 {
     public float logDuration = 5f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Queue<string> logQueue = new Queue<string>();
+
+    GameObject logPrefab;
+
+    #region Private Methods
+
+    #endregion
+
     void Start()
     {
         
@@ -26,5 +34,20 @@ public class Log : MonoBehaviour
         logMessage.text = message;
 
         Destroy(log, logDuration);
+    }
+
+    public void NewScene()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void UpdateManager()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void RestartManager()
+    {
+        throw new System.NotImplementedException();
     }
 }

@@ -102,7 +102,7 @@ public class Player : MonoBehaviour
         leftSnowTrail.SetActive(true);
         rightSnowTrail.SetActive(true);
 
-        StartCoroutine(Ui.instance.FadeText());
+        StartCoroutine(UiManager.instance.FadeText());
     }
 
     void MoveLeft()

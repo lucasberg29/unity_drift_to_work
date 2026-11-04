@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("GAME OVER");
 
-        Ui.instance.ShowPauseMenu();
+        UiManager.instance.ShowPauseMenu();
 
         Time.timeScale = 0;
     
